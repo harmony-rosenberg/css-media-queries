@@ -116,6 +116,15 @@ header {
 
 /* ===== PRINTING ===== */
 
+@media print {
+    .story-box {
+        background-color: rgb(255, 255, 255);
+    }
+    header, .sidebar {
+
+    }
+}
+
 /* Phase 2 */
 
 /* Your code here */
