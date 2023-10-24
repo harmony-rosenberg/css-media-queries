@@ -83,12 +83,36 @@ header {
 }
 
 /* ----- Phase 1 - Moderate Screen ----- */
-
 /* Your code here */
+
+@media screen and (max-width: 851px){
+    .page {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1219px){
+    .page {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: row;
+    }
+}
 
 /* ----- Phase 1 - Wide Screen ----- */
-
 /* Your code here */
+
+@media screen and (min-width: 1220px) {
+    .page, .content {
+        flex-direction: row;
+    }
+}
 
 /* ===== PRINTING ===== */
 
